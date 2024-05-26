@@ -1,5 +1,7 @@
+
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
+    
     Swal.fire({
         title: 'Do you want to play music in the background?',
         icon: 'warning',
@@ -17,6 +19,7 @@ window.addEventListener('load', () => {
         }
     });
 });
+
 
 
 // animation timeline
@@ -45,6 +48,7 @@ const animationTimeline = () => {
         y: 20,
         rotationY: 5,
         skewX: "-15deg"
+        
     }
 
     // timeline
@@ -238,7 +242,20 @@ const animationTimeline = () => {
             skewX: "-15deg",
         },
         "party"
+        
     )
+
+    .from(
+        ".wish h6",
+        0.5, {
+            opacity: 0,
+            y: 10,
+            skewX: "-15deg",
+        },
+        "party"
+        
+    )
+    
     .staggerTo(
         ".eight svg",
         1.5, {

@@ -216,6 +216,10 @@ body {
   margin: 10px 0 0;
 }
 
+.wish h6 {
+  display: none;
+}
+
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
@@ -253,13 +257,25 @@ body {
 
 @media screen and (max-width: 500px) {
   .container {
-    width: 90%;
+    width: 100%;
   }
+
+  .container > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+}
 
   .four .text-box {
-    width: 90%;
+    width: 100%;
   }
 
+  .four  {
+    width: 90%;
+    right: 10px;
+
+  }
   .text-box .fake-btn {
     bottom: -38px;
     right: 5px;
@@ -279,11 +295,18 @@ body {
   }
 
   .wish-hbd {
-    font-size: 2.2em;
+    font-size: 1.4em;
   }
 
   .wish h5 {
-    font-size: 0.5rem;
+    display: none;
+    font-size: 1.0rem;
+  }
+
+  .wish h6 {
+    display: flex;
+    font-size: 0.90rem;
+    margin: 0;
   }
 
   .nine p {
