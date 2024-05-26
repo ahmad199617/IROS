@@ -31,7 +31,7 @@
   .h2x{
 
     margin: 20px;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Bebas Neue', cursive;
     color: #ff0000;
     margin-top: 80px;
@@ -44,7 +44,7 @@
   .h1x{
 
     margin: 20px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Bebas Neue', cursive;
     color: #000000;
     margin-top: 200px;
@@ -60,7 +60,7 @@
     top: 40vh;
 }
   .text{
-    margin: 12px;
+    margin: 5px;
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     color: #472929;
