@@ -17,9 +17,15 @@
 
 <body>
 
-    <audio class="song" loop autoplay>
+    <audio class="song"  id="myaudio" loop autoplay>
         <source src="./music/hbd.mp4">
         </source>
+
+        <script>
+            var audio = document.getElementById("myaudio");
+            audio.volume = 0.3;
+        </script>
+
         Your browser isn't invited for super fun audio time.
     </audio>
 
