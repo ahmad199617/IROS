@@ -300,12 +300,12 @@ body {
 
   .wish h5 {
     display: none;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
   }
 
   .wish h6 {
     display: flex;
-    font-size: 0.90rem;
+    font-size: 1.1rem;
     margin: 0;
   }
 
